@@ -132,7 +132,7 @@ Restoration</h1>
     <div class="hero-body">
       <img src="static/images/comparison.png" alt="Teaser Image" style="width: 100%; height: auto;">
       <h2 class="subtitle has-text-centered">
-       PSNR comparison with the state-of-the-art all-in-one and task-specific methods across 9 tasks. Average results across all test datasets. Best viewed in color.t hendrerit nisl ut maximus. 
+       PSNR comparison with the state-of-the-art all-in-one and task-specific methods across 9 tasks. Average results across all test datasets. Best viewed in color.
       </h2>
     </div>
   </div>
@@ -148,7 +148,25 @@ Restoration</h1>
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Hyperspectral images (HSIs) often suffer from diverse
+            and unknown degradations during imaging, leading to severe
+            spectral and spatial distortions. Existing HSI restoration
+            methods typically rely on specific degradation assumptions,
+            limiting their effectiveness in complex scenarios. In this
+            paper, we propose MP-HSIR, a novel multi-prompt framework that effectively integrates spectral, textual, and visual
+            prompts to achieve universal HSI restoration across diverse
+            degradation types and intensities. Specifically, we develop a
+            prompt-guided spatial-spectral transformer, which incorporates spatial self-attention and a prompt-guided dual-branch
+            spectral self-attention. Since degradations affect spectral features differently, we introduce spectral prompts in the local
+            spectral branch to provide universal low-rank spectral patterns as prior knowledge for enhancing spectral reconstruction. 
+            Furthermore, the text-visual synergistic prompt fuses
+            high-level semantic representations with fine-grained visual
+            features to encode degradation information, thereby guiding
+            the restoration process. Extensive experiments on 9 HSI
+            restoration tasks, including all-in-one scenarios, generalization tests, and real-world cases, demonstrate that MP-HSIR
+            not only consistently outperforms existing all-in-one methods
+            but also surpasses state-of-the-art task-specific approaches
+            across multiple tasks.
           </p>
         </div>
       </div>
