@@ -126,7 +126,7 @@ Restoration</h1>
 </section>
 
 
-<!-- image -->
+<!--
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -137,8 +137,7 @@ Restoration</h1>
     </div>
   </div>
 </section>
-<!-- End image -->
-
+ -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -183,30 +182,32 @@ Restoration</h1>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
+        <img src="static/images/comparison.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          PSNR comparison with the state-of-the-art all-in-one and task-specific methods across 9 tasks. Average results across all test datasets. 
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
         <img src="static/images/results.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Visual comparison results on complex denoising, inpainting, and dehazing. The zoomed-in regions are highlighted
+with <p style="color: red;">red</p> boxes, the corresponding zoomed results are marked with <p style="color: green;">red</p> boxes, boxes, and the residual maps are outlined with <p style="color: yellow;">red</p> boxes, boxes
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/Spectral.pdf" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
+         The spectral errors of the restored HSIs across multiple tasks. (a) Gaussian denoising. (b) Complex denoising. (c) Gaussian
+deblurring. (d) Super-resolution. (e) Inpainting. (f) Dehazing. (g) Band completion. (h) Poisson denoising. 
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/results_2.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Visual comparison results on real denoising and real dehazing. 
       </h2>
     </div>
   </div>
